@@ -24,7 +24,7 @@ public class info_Listener implements ActionListener {
 			
 		final JFrame main_GUI = new JFrame("subversion");	// создание графического окна
 		main_GUI.setTitle ("Окошко информации");
-		main_GUI.setBounds(540,256,322,228);
+		main_GUI.setBounds(540,256,422,228);//Размер
 		main_GUI.setResizable(false); // фиксированный размер окна
 		
 		
@@ -36,15 +36,15 @@ public class info_Listener implements ActionListener {
 		laba_info1.setBounds(20,20,777,30);
 		main_panel.add(laba_info1);
 		
-		JLabel laba_info2 = new JLabel("Данилов Владимир Андреевич 19130169"); // Отображение текста или изображения
+		JLabel laba_info2 = new JLabel("Данилов 20.03.2021 Владимир Андреевич 19130169"); // Отображение текста или изображения
 		laba_info2.setBounds(20,40,777,30);
 		main_panel.add(laba_info2);
 		
-		JLabel laba_info3 = new JLabel("Юсупова Эвелина Альфредовна 19130173"); // Отображение текста или изображения
+		JLabel laba_info3 = new JLabel("Юсупова 20.03.2021 Эвелина Альфредовна 19130173"); // Отображение текста или изображения
 		laba_info3.setBounds(20,60,777,30);
 		main_panel.add(laba_info3);
 		
-		JLabel laba_info4 = new JLabel("Колесова Валерия Юрьевна 19130627"); // Отображение текста или изображения
+		JLabel laba_info4 = new JLabel("Колесова 20.03.2021 Валерия Юрьевна 19130627 "); // Отображение текста или изображения
 		laba_info4.setBounds(20,80,777,30);
 		main_panel.add(laba_info4);
 		
