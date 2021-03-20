@@ -36,7 +36,7 @@ public class info_Listener implements ActionListener {
 		laba_info1.setBounds(20,20,777,30);
 		main_panel.add(laba_info1);
 		
-		JLabel laba_info2 = new JLabel("Данилов 20.03.2021 Владимир Андреевич 19130169"); // Отображение текста или изображения
+		JLabel laba_info2 = new JLabel("Данилов 20.03.20212 Владимир Андреевич 19130169"); // Отображение текста или изображения
 		laba_info2.setBounds(20,40,777,30);
 		main_panel.add(laba_info2);
 		
